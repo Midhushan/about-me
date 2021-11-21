@@ -1,0 +1,65 @@
+<div class="Developer">
+  <!-- <nav class="navbar navbar-light">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+            <small class="navbar-brand mb-0 h1 header-text">Midhu</small>
+        </div>
+  
+      </div>
+    </div>
+  </nav> -->
+
+
+  <div class="container pt-4">
+    <div class="row mb-4">
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="row mb-3">
+          <div class="col-12">
+            <H4 class="text-white">Hello World..!</H4>
+            <span class="text-white"><span class="h1">
+              <div class="stack" style="--stacks: 3;">
+                <span style="--index: 0;">I'm Midhushan</span>
+                <span style="--index: 1;">I'm Midhushan</span>
+                <span style="--index: 2;">I'm Midhushan</span>
+              </div>
+            </span></span>
+            <span class="text-white h4">Doing some stuffs in frontend</span>
+          </div>
+
+          
+          
+        </div>
+        <div class="row">
+          <div class="col">
+            <button type="button" class="btn btn-outline-light">My Profile</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+        <!-- <div class="wrapper">
+          <img src="https://i.kinja-img.com/gawker-media/image/upload/gd8ljenaeahpn0wslmlz.jpg" class="image--cover">
+        </div> -->
+      </div>
+
+    </div>
+
+    <div class="row text-white">
+      <div class="col-12 py-4">
+        <div class="d-flex justify-content-center">
+          <div class="p-2 flex-fill bd-highlight text-end dev-text" [ngClass]="{'active-profile': isDeveloper, 'in-active-profile' : !isDeveloper}" style="font-size: 24px;">Developer</div>
+          <div class="p-2 flex-fill bd-highlight text-center">
+            <input type="checkbox"
+            [checked]="isDeveloper"
+            (click)="profileChange()"></div>
+          <div class="p-2 flex-fill bd-highlight text-start des-text" [ngClass]="{'active-profile': !isDeveloper, 'in-active-profile' : isDeveloper}" style="font-size: 24px;">Designer</div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
